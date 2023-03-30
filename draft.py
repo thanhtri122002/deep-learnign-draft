@@ -24,8 +24,8 @@ def preprocess_data(df, img_folder):
         data.append((img,bbox))
     return data
 
-annotation_file = r"C:\Users\ASUS\Desktop\deeplearning-project\output-og-anno.csv"
-img_folder = r'C:\Users\ASUS\Desktop\deeplearning-project\og-pic-anno'
+annotation_file = r"C:\Users\ASUS\Desktop\draft\annotation.csv"
+img_folder = r'C:\Users\ASUS\Desktop\draft\processed_img'
 
 df = load_annotation_file(annotation_file)
 data = preprocess_data(df, img_folder)

@@ -222,11 +222,10 @@ if __name__ == "__main__":
         print('3. Quit')
         choice = int(input('Enter choice: '))
         if choice == 1:
-            csv_file = r"C:\Users\ASUS\Desktop\deeplearning-project\dataset-enhanced.csv"
-            
-            num_classes = 2
+            """
+            """
         elif choice == 2:
-            csv_file = r"C:\Users\ASUS\Desktop\deeplearning-project\output-og-anno.csv"
+            csv_file = r"C:\Users\ASUS\Desktop\draft\annotation.csv"
            
             num_classes = 2
         elif choice == 3:
